@@ -1,0 +1,43 @@
+html{
+	background-color: black;
+}
+
+#wrapper{
+	width: 46%;
+	margin: auto;
+	padding: 30px;
+	background-color: #cacaca;
+
+}
+
+#header{
+	position: relative;
+	border: #5c9bb7 10px solid; 
+
+}
+
+h1{
+
+	text-align: center;
+}
+
+h1:after{
+	content: '';
+	position: absolute;
+	border: 6px solid #5c9bb7;
+	border-color: #5190ac transparent transparent ;
+	height: 0px;
+	width: 0px;
+	bottom: -20px;
+	left: 50%;
+	margin-left: -6px;
+}
+
+.item{
+	margin: 10px;
+	font-size: 20px;
+}
+
+.accepted{
+	border: 1px solid black;
+}
